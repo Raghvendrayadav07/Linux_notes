@@ -1,0 +1,48 @@
+Control and access files 
+today i studied how can i control and access any file by commands
+
+for that i create a file by using touch filename and ls -l it will show the details of file
+
+132324 -rwxrwxrwx 1 root root .52 feb 24 time filename 
+where 
+- is filetype
+        filetype can be dir, regular file, symbolic link
+rwx is user 
+rwx is group 
+rwx is other 
+    now r means readable 
+        w means write
+        x means excutable 
+        - is denied 
+
+File types in linux system
+-  regular file 
+d  directory 
+l  symbolic link
+c charater device
+b  block device 
+p   named pipe
+s socket
+
+Change permissions with the symbolic method
+specific syntax :- chmod[who][operator][filename]
+
+Who - the letter specifies whose permissions are targetting 
+u - user (the file owner)
+g - group (user in the file assigned group)
+o - others (everyone else on the system)
+a - all (applies to user, group, other)
+
+Note:- umash decide the default permissions for file 
+
+Operators - 
++ add 
+- remove
+= sets
+
+The scoring system (octal method )
+4 = read 
+2 = write
+1 = execute 
+
+the sum of all is 7 so you can asssign number from 0 to 7 
