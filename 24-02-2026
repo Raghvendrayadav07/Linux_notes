@@ -33,7 +33,7 @@ g - group (user in the file assigned group)
 o - others (everyone else on the system)
 a - all (applies to user, group, other)
 
-Note:- umash decide the default permissions for file 
+Note:- umask decide the default permissions for file 
 
 Operators - 
 + add 
